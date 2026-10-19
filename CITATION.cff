@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "SAR-Constrained Flood Inundation Surrogate Modelling"
+abstract: "Deep learning surrogate model for rapid flood extent mapping using SAR observations and physical predictors"
+authors:
+  - family-names: "[TO_BE_ADDED]"
+    given-names: "[TO_BE_ADDED]"
+    orcid: "https://orcid.org/[TO_BE_ADDED]"
+  - family-names: "[TO_BE_ADDED]"
+    given-names: "[TO_BE_ADDED]"
+    orcid: "https://orcid.org/[TO_BE_ADDED]"
+repository-code: "https://github.com/kaedez-hydro/SAR-Flood-Surrogate"
+url: "https://github.com/kaedez-hydro/SAR-Flood-Surrogate"
+keywords:
+  - flood mapping
+  - deep learning
+  - SAR
+  - remote sensing
+  - U-Net
+  - surrogate modeling
+  - hydrology
+license: MIT
+version: 1.0.0
+date-released: 2025-01-19
+preferred-citation:
+  type: article
+  title: "SAR-constrained flood inundation surrogate modelling with physical predictors"
+  authors:
+    - family-names: "[TO_BE_ADDED]"
+      given-names: "[TO_BE_ADDED]"
+  journal: "[Under Review]"
+  year: 2025
+  status: "under review"

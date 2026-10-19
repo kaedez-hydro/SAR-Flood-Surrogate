@@ -1,0 +1,42 @@
+{
+  "title": "SAR-Constrained Flood Inundation Surrogate Modelling",
+  "description": "Code and data for training and evaluating deep learning surrogate models that predict flood inundation extent using SAR observations and physical predictors. Study event: July 2023 Daqinghe River flood, North China Plain.",
+  "creators": [
+    {
+      "name": "[TO_BE_ADDED]",
+      "affiliation": "[TO_BE_ADDED]",
+      "orcid": "[TO_BE_ADDED]"
+    },
+    {
+      "name": "[TO_BE_ADDED]",
+      "affiliation": "[TO_BE_ADDED]",
+      "orcid": "[TO_BE_ADDED]"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "upload_type": "software",
+  "keywords": [
+    "flood mapping",
+    "deep learning",
+    "SAR",
+    "remote sensing",
+    "U-Net",
+    "surrogate modeling",
+    "hydrology",
+    "Sentinel-1",
+    "North China Plain"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/kaedez-hydro/SAR-Flood-Surrogate",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "grants": [
+    {
+      "id": "[TO_BE_ADDED if applicable]"
+    }
+  ]
+}
