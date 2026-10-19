@@ -1,0 +1,2 @@
+experiment_name,model_name,data_domain,in_channels,split_mode,num_patches,threshold,tp,fp,tn,fn,iou,precision,recall,f1,dice,area_bias,total_pred_area,total_true_area,total_inference_sec,avg_inference_ms,checkpoint_path,data_dir,seed,val_percent
+van_050105_6,vanilla_unet,full_basin,6,predefined,80,0.5,17930,4022,5204201,16727,0.4635590372175196,0.8167820699791918,0.5173558011507818,0.6334677016370535,0.6334681764448503,-0.36659260754345174,21952.0,34657.0,0.4450647309422493,5.563309136778116,saved_models/van_050105_6/latest_best.pth,train_data_full_basin,2026,0.2
