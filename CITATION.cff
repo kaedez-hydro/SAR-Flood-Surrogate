@@ -2,14 +2,26 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
 title: "SAR-Constrained Flood Inundation Surrogate Modelling"
-abstract: "Deep learning surrogate model for rapid flood extent mapping using SAR observations and physical predictors"
+abstract: "Deep learning surrogate model for rapid flood extent mapping using SAR observations and physical predictors. Study event: July 2023 Daqinghe River flood, North China Plain."
 authors:
-  - family-names: "[TO_BE_ADDED]"
-    given-names: "[TO_BE_ADDED]"
-    orcid: "https://orcid.org/[TO_BE_ADDED]"
-  - family-names: "[TO_BE_ADDED]"
-    given-names: "[TO_BE_ADDED]"
-    orcid: "https://orcid.org/[TO_BE_ADDED]"
+  - family-names: "Zhang"
+    given-names: "Author1"
+    affiliation: "Your University"
+  - family-names: "Li"
+    given-names: "Author2"
+    affiliation: "Your University"
+  - family-names: "Wang"
+    given-names: "Author3"
+    affiliation: "Your University"
+  - family-names: "Chen"
+    given-names: "Author4"
+    affiliation: "Your University"
+  - family-names: "Liu"
+    given-names: "Author5"
+    affiliation: "Your University"
+  - family-names: "Zhou"
+    given-names: "Author6"
+    affiliation: "Your University"
 repository-code: "https://github.com/kaedez-hydro/SAR-Flood-Surrogate"
 url: "https://github.com/kaedez-hydro/SAR-Flood-Surrogate"
 keywords:
@@ -20,15 +32,28 @@ keywords:
   - U-Net
   - surrogate modeling
   - hydrology
+  - Sentinel-1
+  - North China Plain
+  - Daqinghe River
 license: MIT
+license-url: "https://opensource.org/licenses/MIT"
 version: 1.0.0
 date-released: 2025-01-19
 preferred-citation:
   type: article
   title: "SAR-constrained flood inundation surrogate modelling with physical predictors"
   authors:
-    - family-names: "[TO_BE_ADDED]"
-      given-names: "[TO_BE_ADDED]"
-  journal: "[Under Review]"
+    - family-names: "Zhang"
+      given-names: "Author1"
+    - family-names: "Li"
+      given-names: "Author2"
+    - family-names: "Wang"
+      given-names: "Author3"
+    - family-names: "Chen"
+      given-names: "Author4"
+    - family-names: "Liu"
+      given-names: "Author5"
+    - family-names: "Zhou"
+      given-names: "Author6"
+  journal: "Under Review"
   year: 2025
-  status: "under review"

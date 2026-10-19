@@ -1,21 +1,35 @@
 {
-  "title": "SAR-Constrained Flood Inundation Surrogate Modelling",
-  "description": "Code and data for training and evaluating deep learning surrogate models that predict flood inundation extent using SAR observations and physical predictors. Study event: July 2023 Daqinghe River flood, North China Plain.",
+  "title": "Model Checkpoints and Data for SAR-Flood-Surrogate",
+  "description": "Pre-trained model weights, patch assignments, and validation predictions for the SAR-constrained flood inundation surrogate modelling project. Study event: July 2023 Daqinghe River flood, North China Plain. This archive includes: (1) Three pre-trained U-Net models (Vanilla 6ch, ResNet34 6ch, Vanilla 7ch), (2) Patch assignment file for 1,267 training and 80 validation patches, (3) Validation prediction arrays. Code available at https://github.com/kaedez-hydro/SAR-Flood-Surrogate",
   "creators": [
     {
-      "name": "[TO_BE_ADDED]",
-      "affiliation": "[TO_BE_ADDED]",
-      "orcid": "[TO_BE_ADDED]"
+      "name": "Author1 Zhang",
+      "affiliation": "Your University"
     },
     {
-      "name": "[TO_BE_ADDED]",
-      "affiliation": "[TO_BE_ADDED]",
-      "orcid": "[TO_BE_ADDED]"
+      "name": "Author2 Li",
+      "affiliation": "Your University"
+    },
+    {
+      "name": "Author3 Wang",
+      "affiliation": "Your University"
+    },
+    {
+      "name": "Author4 Chen",
+      "affiliation": "Your University"
+    },
+    {
+      "name": "Author5 Liu",
+      "affiliation": "Your University"
+    },
+    {
+      "name": "Author6 Zhou",
+      "affiliation": "Your University"
     }
   ],
   "access_right": "open",
-  "license": "MIT",
-  "upload_type": "software",
+  "license": "CC-BY-4.0",
+  "upload_type": "dataset",
   "keywords": [
     "flood mapping",
     "deep learning",
@@ -25,7 +39,10 @@
     "surrogate modeling",
     "hydrology",
     "Sentinel-1",
-    "North China Plain"
+    "North China Plain",
+    "Daqinghe River",
+    "model weights",
+    "neural network"
   ],
   "related_identifiers": [
     {
@@ -34,9 +51,6 @@
       "scheme": "url"
     }
   ],
-  "grants": [
-    {
-      "id": "[TO_BE_ADDED if applicable]"
-    }
-  ]
+  "version": "1.0.0",
+  "publication_date": "2025-01-19"
 }
