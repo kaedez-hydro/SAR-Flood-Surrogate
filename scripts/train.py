@@ -30,6 +30,9 @@ import sys
 import time
 from datetime import datetime
 
+# Add repository root to path for imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import cv2
 import numpy as np
 import pandas as pd

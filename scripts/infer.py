@@ -13,6 +13,9 @@ import numpy as np
 import torch
 from tqdm import tqdm
 
+# Add repository root to path for imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 warnings.filterwarnings("ignore")
 
 # ── Config ────────────────────────────────────────────────────────────

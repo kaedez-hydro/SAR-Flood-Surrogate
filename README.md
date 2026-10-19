@@ -72,6 +72,8 @@ with torch.no_grad():
     prediction = (output > 0.5).cpu().numpy()[0, 0]
 ```
 
+**Note**: Processed patch data (256×256 patches with normalized inputs) are not publicly available. To run training or evaluation scripts, you need to generate patches from the source datasets listed in Code and Data Availability using your own preprocessing pipeline, and provide them via the `--data-dir` parameter.
+
 ## Results
 
 ### Table 5: Model Performance on 80 Validation Patches
@@ -215,11 +217,7 @@ python scripts/evaluate.py \
 
 ### Reproduce Table S1 (Coverage Analysis)
 
-```bash
-python utils/run_supplementary_analysis.py \
-    --mode coverage \
-    --output results/supplementary_analysis/
-```
+Results are available in `results/supplementary_analysis/`.
 
 ## Code and Data Availability
 
@@ -254,7 +252,6 @@ python utils/run_supplementary_analysis.py \
 
 For questions:
 - GitHub Issues: https://github.com/kaedez-hydro/SAR-Flood-Surrogate/issues
-- Email: [From manuscript]
 
 ## Acknowledgments
 

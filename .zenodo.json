@@ -1,14 +1,14 @@
 {
-  "title": "Model Checkpoints for SAR-Flood-Surrogate",
-  "description": "Pre-trained model weights for SAR-constrained flood inundation surrogate modelling. Study event: July 2023 Daqinghe River flood, North China Plain. This archive includes three pre-trained U-Net models (Vanilla 6ch, ResNet34 6ch, Vanilla 7ch). Code available at https://github.com/kaedez-hydro/SAR-Flood-Surrogate",
+  "title": "SAR-Flood-Surrogate: code for SAR-constrained flood inundation surrogate modelling",
+  "description": "Deep learning code for rapid flood extent mapping using SAR observations and physical predictors. Includes Vanilla U-Net and ResNet34 U-Net implementations, training scripts with spatial split support, evaluation tools, and utilities for the July 2023 Daqinghe River flood study. Model weights available separately at https://doi.org/10.5281/zenodo.23465452",
+  "upload_type": "software",
+  "license": "MIT",
   "creators": [
     {
       "name": "Zhu, Changjun"
     }
   ],
   "access_right": "open",
-  "license": "CC-BY-4.0",
-  "upload_type": "dataset",
   "keywords": [
     "flood mapping",
     "deep learning",
@@ -20,16 +20,14 @@
     "Sentinel-1",
     "North China Plain",
     "Daqinghe River",
-    "model weights",
-    "neural network"
+    "python",
+    "pytorch"
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/kaedez-hydro/SAR-Flood-Surrogate",
-      "relation": "isSupplementTo",
-      "scheme": "url"
+      "identifier": "10.5281/zenodo.23465452",
+      "relation": "isSupplementedBy",
+      "scheme": "doi"
     }
-  ],
-  "version": "1.0.0",
-  "publication_date": "2026-10-19"
+  ]
 }

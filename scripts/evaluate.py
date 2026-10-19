@@ -2,9 +2,13 @@
 import csv
 import json
 import os
+import sys
 import time
 from dataclasses import dataclass
 from typing import Dict, List, Tuple
+
+# Add repository root to path for imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import cv2
 import numpy as np
