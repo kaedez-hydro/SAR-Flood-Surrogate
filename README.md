@@ -20,7 +20,8 @@ This repository contains code, data, and results for training and evaluating dee
 ### Study Area
 
 - **Basin**: Daqinghe River, North China Plain
-- **Event**: July 29 - August 2, 2023 flood
+- **Event rainfall**: July 29 - August 2, 2023
+- **SAR monitoring**: July 28 - August 23, 2023
 - **Source grid**: 2,199 rows × 4,685 columns
 - **Patch coverage domain**: 2,176 rows × 4,672 columns
 - **Top-left corner**: 113.5621°E, 40.0530°N
@@ -125,11 +126,11 @@ SAR-Flood-Surrogate/
 
 ## Training Configuration
 
-All models were trained with (see Text S1 for complete specification):
+All models were trained with (see Text S4 and Table S7 for complete specification):
 
 - **Optimizer**: Adam
 - **Learning rate**: 3×10⁻⁴
-- **Learning rate schedule**: CosineAnnealingLR (T_max=30,000, η_min=1e-6)
+- **Learning rate schedule**: CosineAnnealingLR
 - **Batch size**: 
   - 6-channel: 135
   - 7-channel: 70
@@ -168,7 +169,7 @@ All models were trained with (see Text S1 for complete specification):
 - **Source**: Sentinel-1 C-band SAR
 - **Repository**: Copernicus Data Space
 - **URL**: https://dataspace.copernicus.eu/
-- **Period**: July 29 - August 2, 2023 (4 scenes)
+- **Period**: July 28 - August 23, 2023
 - **Processing**: GNDPI + texture + random forest (Zhu et al., 2026)
 - **Labeling**: Union of all detection instances
 

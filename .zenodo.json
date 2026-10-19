@@ -1,30 +1,24 @@
 {
-  "title": "Model Checkpoints and Data for SAR-Flood-Surrogate",
-  "description": "Pre-trained model weights, patch assignments, and validation predictions for the SAR-constrained flood inundation surrogate modelling project. Study event: July 2023 Daqinghe River flood, North China Plain. This archive includes: (1) Three pre-trained U-Net models (Vanilla 6ch, ResNet34 6ch, Vanilla 7ch), (2) Patch assignment file for 1,267 training and 80 validation patches, (3) Validation prediction arrays. Code available at https://github.com/kaedez-hydro/SAR-Flood-Surrogate",
+  "title": "Model Checkpoints for SAR-Flood-Surrogate",
+  "description": "Pre-trained model weights for SAR-constrained flood inundation surrogate modelling. Study event: July 2023 Daqinghe River flood, North China Plain. This archive includes three pre-trained U-Net models (Vanilla 6ch, ResNet34 6ch, Vanilla 7ch). Code available at https://github.com/kaedez-hydro/SAR-Flood-Surrogate",
   "creators": [
     {
-      "name": "Author1 Zhang",
-      "affiliation": "Your University"
+      "name": "Zhu, Changjun"
     },
     {
-      "name": "Author2 Li",
-      "affiliation": "Your University"
+      "name": "Zhang, Ting"
     },
     {
-      "name": "Author3 Wang",
-      "affiliation": "Your University"
+      "name": "Zhou, Keke"
     },
     {
-      "name": "Author4 Chen",
-      "affiliation": "Your University"
+      "name": "Li, Jianzhu"
     },
     {
-      "name": "Author5 Liu",
-      "affiliation": "Your University"
+      "name": "Kang, Aiqing"
     },
     {
-      "name": "Author6 Zhou",
-      "affiliation": "Your University"
+      "name": "Ma, Qiang"
     }
   ],
   "access_right": "open",
@@ -52,5 +46,5 @@
     }
   ],
   "version": "1.0.0",
-  "publication_date": "2025-01-19"
+  "publication_date": "2026-10-19"
 }
