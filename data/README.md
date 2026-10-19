@@ -46,7 +46,7 @@ print(f"Validation patches: {len(val_patches)}")
 
 **Validation Set**:
 - Patches: 80 (5.94%)
-- Validation subbasins: Dongdian, Langouwa, Xiaoqinghe
+- Validation subbasins: Dongdian, Langouwa, Xiaoqing River Flood Diversion Area
 - Strategy: Strict spatial holdout
 
 **Important**: Due to sliding-window extraction (256×256 patches, 64-pixel stride), substantial pixel overlap exists between patches. See supplementary analysis for coverage details.
@@ -141,7 +141,7 @@ All data layers are resampled to a common geographic grid:
 - **CRS**: EPSG:4326 (WGS84)
 - **Resolution**: 0.0008983° in both longitude and latitude
 - **Approximate metric size**: 
-  - East-West: ~76.7-78.8 m (varies slightly with longitude)
+  - East-West: ~76.7-78.8 m (varies slightly with latitude)
   - North-South: ~99.7 m
 - **Source grid**: 2,199 rows × 4,685 columns
 - **Patch coverage domain**: 2,176 rows × 4,672 columns

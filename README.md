@@ -225,10 +225,8 @@ python utils/run_supplementary_analysis.py \
 
 **Code**: https://github.com/kaedez-hydro/SAR-Flood-Surrogate
 
-**Model Checkpoints and Data**: https://doi.org/10.5281/zenodo.23465452
+**Model Checkpoints**: https://doi.org/10.5281/zenodo.23465452
 - Pre-trained models (330 MB)
-- Patch assignment file
-- Validation predictions
 
 **Source Data**:
 - GSMaP v6: https://sharaku.eorc.jaxa.jp/GSMaP/
@@ -239,12 +237,11 @@ python utils/run_supplementary_analysis.py \
 ## Citation
 
 ```bibtex
-@article{flood2025sar,
+@article{zhu2026sar,
   title={SAR-constrained flood inundation surrogate modelling with physical predictors},
-  author={[Authors from manuscript]},
+  author={Zhu, Changjun and Zhang, Ting and Zhou, Keke and Li, Jianzhu and Kang, Aiqing and Ma, Qiang},
   journal={Under Review},
-  year={2025},
-  doi={10.5281/zenodo.23465452}
+  year={2026}
 }
 ```
 
