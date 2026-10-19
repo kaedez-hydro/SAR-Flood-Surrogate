@@ -41,7 +41,7 @@ from torch.utils.data import DataLoader, Subset, random_split
 from tqdm import tqdm
 
 from dataset import FloodDataset
-from model import build_model
+from models.models import build_model
 
 
 # =========================================================================

@@ -85,7 +85,7 @@ def normalize_channel(arr, key):
 
 def load_model(exp_name):
     """Load model weights and config."""
-    from model import build_model
+    from models.models import build_model
 
     cfg_path = os.path.join(OUTPUT_DIR, exp_name, "config.json")
     if not os.path.exists(cfg_path):

@@ -6,16 +6,6 @@ abstract: "Deep learning surrogate model for rapid flood extent mapping using SA
 authors:
   - family-names: "Zhu"
     given-names: "Changjun"
-  - family-names: "Zhang"
-    given-names: "Ting"
-  - family-names: "Zhou"
-    given-names: "Keke"
-  - family-names: "Li"
-    given-names: "Jianzhu"
-  - family-names: "Kang"
-    given-names: "Aiqing"
-  - family-names: "Ma"
-    given-names: "Qiang"
 repository-code: "https://github.com/kaedez-hydro/SAR-Flood-Surrogate"
 url: "https://github.com/kaedez-hydro/SAR-Flood-Surrogate"
 keywords:

@@ -12,7 +12,7 @@ import pandas as pd
 import torch
 from torch.utils.data import DataLoader, Dataset
 
-from model import build_model
+from models.models import build_model
 
 
 @dataclass

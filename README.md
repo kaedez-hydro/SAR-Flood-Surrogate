@@ -57,9 +57,9 @@ import numpy as np
 from models import VanillaUNet
 
 # Load model
-model = VanillaUNet(in_channels=6, out_channels=1)
+model = VanillaUNet(n_channels=6, n_classes=1)
 checkpoint = torch.load('models/checkpoints/van_050105_6.pth')
-model.load_state_dict(checkpoint['model_state_dict'])
+model.load_state_dict(checkpoint)
 model.eval()
 
 # Load input (6, 256, 256) - channel-first format
@@ -99,9 +99,10 @@ De-duplicated validation pixels:
 ```
 SAR-Flood-Surrogate/
 ├── models/
-│   ├── vanilla_unet.py         # Vanilla U-Net architecture
-│   ├── resnet34_unet.py        # ResNet34 U-Net architecture
+│   ├── models.py               # VanillaUNet and ResNet34 U-Net architectures
 │   └── checkpoints/            # Pre-trained weights (download from Zenodo)
+│
+├── dataset.py                  # Dataset loading with spatial split support
 │
 ├── data/
 │   ├── patch_assignments.csv   # Training/validation split (1,267 / 80)
@@ -115,8 +116,7 @@ SAR-Flood-Surrogate/
 │   └── figures/                # Supplementary figures S1-S4
 │
 ├── utils/
-│   ├── make_spatial_split.py   # Generate spatial block split
-│   └── run_supplementary_analysis.py
+│   └── make_spatial_split.py   # Generate spatial block split
 │
 └── scripts/
     ├── train.py                # Training script
@@ -208,9 +208,9 @@ Baseline 6 channels + **R1d** (1-day antecedent rainfall)
 
 ```bash
 python scripts/evaluate.py \
-    --checkpoint models/checkpoints/van_050105_6.pth \
-    --data_split data/patch_assignments.csv \
-    --output results/table5_reproduction.csv
+    --checkpoint-path models/checkpoints/van_050105_6.pth \
+    --split-file data/patch_assignments.csv \
+    --output-dir results/
 ```
 
 ### Reproduce Table S1 (Coverage Analysis)
